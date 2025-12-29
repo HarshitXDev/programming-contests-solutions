@@ -1,0 +1,4 @@
+learn a programming language --- c++
+learn DSA basics and implement
+Learn language libraries that have DSA implementes for you.
+Do practice and learning together.
