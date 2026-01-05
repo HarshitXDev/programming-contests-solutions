@@ -1,3 +1,0 @@
-big O : exact or upper
-omega : exact or lower
-theta : exact
