@@ -1,0 +1,19 @@
+A function f(n) is said to be growing faster than g(n) if
+        lim (g(n)/f(n)) = 0
+        n->infi
+
+        lim (f(n)/g(n)) = infi
+        n->infi
+
+        --> Ignore lower order terms
+        --> Ignore leading term constant
+
+        f(n)=n^2+n+6   order of growth: n^2
+
+        const < loglogn < logn < n^1/3 < n^1/2 < n < n^2 < n^3 < n^4 < n^not
+
+        first we get the order of growth of two alogrithm then we compare it the expression with less order of growth will be considered
+
+        Best Case : constant (c)
+        Average Case: linear (n)
+        Worst Case : quadratic (n2 + n + c)

@@ -1,0 +1,33 @@
+asymptotic analysis -- measure order of growth of time taken by a function or program in terms of input size.
+----- does not depend upon machine , programming language,etc.
+
+--> In any type of mathematical operations it takes constant time irrespective of the given value.
+Time taken: C1
+eg.
+int fun(int n){
+    return n*(n+1)/2;
+}
+
+--> Time Taken: C2n +C3
+
+eg.
+    int fun2(int n){
+        int sum = 0;
+        for(int i=1;i<=n;i++)
+        sum += ii;
+        return sum;
+    }
+
+--> Time Taken: C4n^2 +Cn + C6
+
+eg: int fun3(int n){
+    int sum = 0;
+    for(int i=1;i<=n;i++)
+    for(int j=1;j<=i;j++)
+    sum ++;
+    return sum;
+}
+
+
+time taken: fun1(const) < fun2(linear) < fun3(quadratic)
+
